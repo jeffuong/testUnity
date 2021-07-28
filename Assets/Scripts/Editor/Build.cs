@@ -17,6 +17,6 @@ public class Build {
   }
 
   static void Windows() {
-    BuildPipeline.BuildPlayer(scenes, "./Builds/game.x64", BuildTarget.StandaloneWindows64, BuildOptions.None);      
+    BuildPipeline.BuildPlayer(scenes, "./Builds/game_x64.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);      
   }
 }
